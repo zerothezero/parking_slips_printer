@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/async-storage/android/@react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/async-storage/android/@react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parking_slip.iml" filepath="$PROJECT_DIR$/parking_slip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-bluetooth-escpos-printer/android/react-native-bluetooth-escpos-printer.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-bluetooth-escpos-printer/android/react-native-bluetooth-escpos-printer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-screens/android/react-native-screens.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-screens/android/react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-sqlite-storage/platforms/android/react-native-sqlite-storage.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-sqlite-storage/platforms/android/react-native-sqlite-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

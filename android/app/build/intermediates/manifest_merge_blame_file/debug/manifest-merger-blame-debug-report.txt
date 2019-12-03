@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.parking_slip"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\work\react\parking_slip\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\work\react\parking_slip\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:4:5-68
+13-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:4:22-65
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+14-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:5:5-74
+14-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:5:22-71
+15    <uses-permission android:name="android.permission.INTERNET" /> <!-- <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+15-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:6:5-67
+15-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:6:22-64
+16    <uses-feature
+16-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:9:5-11:35
+17        android:name="android.hardware.bluetooth_le"
+17-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:10:9-53
+18        android:required="true" />
+18-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:11:9-32
+19
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->[:react-native-bluetooth-escpos-printer] D:\work\react\parking_slip\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+20-->[:react-native-bluetooth-escpos-printer] D:\work\react\parking_slip\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-78
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->[:react-native-bluetooth-escpos-printer] D:\work\react\parking_slip\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-79
+21-->[:react-native-bluetooth-escpos-printer] D:\work\react\parking_slip\node_modules\react-native-bluetooth-escpos-printer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-76
+22
+23    <application
+23-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:13:5-32:19
+24        android:name="com.parking_slip.MainApplication"
+24-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:14:9-40
+25        android:allowBackup="false"
+25-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:15:9-36
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] C:\Users\no298\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:16:9-43
+29        android:label="@string/app_name"
+29-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:17:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:18:9-54
+31        android:theme="@style/AppTheme"
+31-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:19:9-40
+32        android:usesCleartextTraffic="true" >
+32-->D:\work\react\parking_slip\android\app\src\debug\AndroidManifest.xml:7:18-53
+33        <activity
+33-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:20:9-30:20
+34            android:name="com.parking_slip.MainActivity"
+34-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:21:13-41
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+35-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:22:13-83
+36            android:label="@string/app_name"
+36-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:23:13-45
+37            android:screenOrientation="portrait"
+37-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:24:13-49
+38            android:windowSoftInputMode="adjustPan" >
+38-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:25:13-52
+39            <intent-filter>
+39-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:26:13-29:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:27:17-69
+40-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:27:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:28:17-77
+42-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:28:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+45-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:31:9-86
+45-->D:\work\react\parking_slip\android\app\src\main\AndroidManifest.xml:31:19-83
+46    </application>
+47
+48</manifest>
